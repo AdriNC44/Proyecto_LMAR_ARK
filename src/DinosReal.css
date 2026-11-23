@@ -1,0 +1,55 @@
+table {
+    border: solid black 2px;
+    border-collapse: collapse;
+    width: 350px;
+
+    tr {
+        td {
+            border: solid black 2px;
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        th {
+            border: solid black 2px;
+            font-size: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    }
+
+    margin: 10px;
+}
+
+body {
+    background-color: #E8EFEA;
+
+    article {
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    .herbi article {
+        background-color: #7fa894;
+        box-shadow: 7px 7px 2px #3c5046;
+    }
+
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.herbi h2 {
+    color: rgb(31, 51, 1);
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
