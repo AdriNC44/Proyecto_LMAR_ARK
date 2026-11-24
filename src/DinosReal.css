@@ -1,44 +1,153 @@
 table {
     border: solid black 2px;
     border-collapse: collapse;
-    width: 350px;
+    width: 100%;
+    margin: 10px 0;
+}
 
-    tr {
-        td {
-            border: solid black 2px;
-            padding: 5px;
-            font-size: 16px;
-        }
 
-        th {
-            border: solid black 2px;
-            font-size: 20px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-    }
 
-    margin: 10px;
+table td,
+table th {
+    border: solid black 2px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+table th {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
-    background-color: #E8EFEA;
+    background-image: url(../imagen/fondo_selva.jpeg);
+    background-size: 100%;
 
     article {
         margin-bottom: 30px;
         padding: 10px;
+        overflow-x: auto;
     }
 
-    .herbi article {
-        background-color: #7fa894;
-        box-shadow: 7px 7px 2px #3c5046;
+    section {
+        padding: 15px;
     }
 
+    .herbi {
+        background: #698d7b;
+
+        article {
+            background-color: #7fa894;
+            box-shadow: 7px 7px 2px #3c5046;
+        }
+    }
+
+    .carni {
+        background-color: #ff9789;
+
+        article {
+            box-shadow: 7px 7px 2px #834239;
+            background-color: rgb(184, 137, 137);
+        }
+    }
+
+    .omni {
+        background-color: rgb(185, 185, 127);
+
+        article {
+            box-shadow: 7px 7px 2px rgb(122, 122, 83);
+            background-color: rgb(141, 141, 108);
+        }
+    }
 
 }
 
+div {
+    background-color: lightskyblue;
+    border-radius: 45px;
+    width: fit-content;
+    padding: 2px;
+    margin-bottom: 15px;
+    position: relative;
+    top: -70px;
+    right: -70%;
+
+    ul {
+        margin-left: -20px;
+        list-style: none;
+        display: flex;
+
+        li {
+            margin-right: 10px;
+            font-size: 18px;
+            font-weight: 550;
+
+            a {
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.dinosaurio-imagen {
+    display: block;
+    max-width: min(100%, 640px);
+    max-height: 420px;
+    margin: 12px auto;
+    object-fit: contain;
+    border: 2px solid #53675b;
+    border-radius: 6px;
+}
+
+.credito-imagen {
+    display: block;
+    margin: -4px auto 12px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.busca {
+    margin: 20px 10px;
+    padding: 15px;
+    background-color: #d3ded7;
+    border-radius: 6px;
+    position: sticky;
+    top: 5px;
+    height: 110px;
+}
+
+.busca label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.busca input {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.busca p {
+    margin-bottom: 0;
+}
+
+#estado-imagenes {
+    font-size: 14px;
+}
+
+[hidden] {
+    display: none !important;
+}
+
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: slateblue;
+    font-weight: bolder;
+    padding: 5px;
 }
 
 h2 {
@@ -47,7 +156,15 @@ h2 {
 }
 
 .herbi h2 {
-    color: rgb(31, 51, 1);
+    color: rgb(59, 99, 0);
+}
+
+.carni h2 {
+    color: rgb(131, 0, 0);
+}
+
+.omni h2 {
+    color: rgb(131, 107, 0);
 }
 
 h3 {
