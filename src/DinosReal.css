@@ -62,7 +62,7 @@ body {
 }
 
 div {
-    background: linear-gradient(45deg, white, rgb(178, 225, 255), white);
+    background: linear-gradient(45deg, white, rgb(178, 225, 255), white, rgb(178, 225, 255), white);
     border-radius: 45px;
     width: fit-content;
     padding: 2px;
@@ -91,11 +91,10 @@ div {
 
             a:hover {
                 font-size: 1.2em;
-                color: rgb(90, 0, 45);
             }
 
             a:active {
-                color: white;
+                color: rgb(142, 255, 142);
             }
         }
     }
