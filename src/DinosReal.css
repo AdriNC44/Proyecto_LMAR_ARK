@@ -5,7 +5,11 @@ table {
     margin: 10px 0;
 }
 
-
+.navegar {
+    position: sticky;
+    top: -10px;
+    width: 1150px;
+}
 
 table td,
 table th {
@@ -106,8 +110,7 @@ div {
     max-height: 300px;
     margin: 12px auto;
     object-fit: contain;
-    border: 2px solid #53675b;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 .credito-imagen {
@@ -127,11 +130,7 @@ div {
     top: 0px;
 }
 
-.navegar {
-    position: sticky;
-    top: -10px;
-    width: 1150px;
-}
+
 
 .busca label {
     display: block;
@@ -160,11 +159,13 @@ div {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 80px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(183, 177, 226);
     font-weight: bolder;
-    padding: 5px;
+    border-radius: 6px;
+    margin-top: 10px;
+    width: fit-content;
 }
 
 h2 {
