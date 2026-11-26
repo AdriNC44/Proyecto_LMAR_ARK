@@ -12,23 +12,25 @@
     <header id="inicio">
         <h1>LOS DINOSAURIOS DE LA VIDA REAL</h1>
     </header>
-    <section class="busca" aria-label="Buscar dinosaurios">
-        <label for="buscador-dinosaurios">Buscar por nombre o información:</label>
-        <input id="buscador-dinosaurios" type="search" placeholder="Ej.: Triceratops, Cretácico, herbívoro">
-        <p id="resultado-busqueda" aria-live="polite"></p>
-        <p id="estado-imagenes" aria-live="polite" hidden></p>
-        <div>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#herbi">Herbívoros</a></li>
-                <li><a href="#carni">Carnívoros</a></li>
-                <li><a href="#omni">Omnívoros</a></li>
-            </ul>
-        </div>
+    <section class="navegar">
+        <article class="busca" aria-label="Buscar dinosaurios">
+            <label for="buscador-dinosaurios">Buscar por nombre o información:</label>
+            <input id="buscador-dinosaurios" type="search" placeholder="Ej.: Triceratops, Cretácico, herbívoro">
+            <p id="resultado-busqueda" aria-live="polite"></p>
+            <p id="estado-imagenes" aria-live="polite" hidden></p>
+            <div>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#herbi">Herbívoros</a></li>
+                    <li><a href="#carni">Carnívoros</a></li>
+                    <li><a href="#omni">Omnívoros</a></li>
+                </ul>
+            </div>
+        </article>
     </section>
 
-
-    <section class="herbi" id="herbi">
+    <br id="herbi">
+    <section class="herbi">
         <h2>HERBÍVORO</h2>
         <article>
             <h3>AARDONYX</h3>
@@ -2097,7 +2099,7 @@
         </article>
         <article>
             <h3>MIRAGAIA</h3>
-            <img src="imagen/Miragaia_longicollum.png" alt="imagen MIRAGAIA" height="250">
+            <img class="dinosaurio-imagen" src="imagen/Miragaia_longicollum.png" alt="imagen MIRAGAIA" height="250">
             <table>
                 <tr>
                     <th>Peso</th>
@@ -2912,7 +2914,8 @@
             </table>
         </article>
     </section>
-    <section class="carni" id="carni">
+    <br id="carni">
+    <section class="carni">
         <h2>CARNÍVORO</h2>
         <article>
             <h3>ACHILLOBATOR</h3>
@@ -4355,7 +4358,8 @@
             </table>
         </article>
     </section>
-    <section class="omni" id="omni">
+    <br id="omni">
+    <section class="omni">
         <h2>OMNÍVORO</h2>
         <article>
             <h3>ALVAREZSAURUS</h3>

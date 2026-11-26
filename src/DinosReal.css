@@ -33,7 +33,7 @@ body {
     }
 
     .herbi {
-        background: #698d7b;
+        background: #a3ddc0;
 
         article {
             background-color: #7fa894;
@@ -51,7 +51,7 @@ body {
     }
 
     .omni {
-        background-color: rgb(185, 185, 127);
+        background-color: rgb(235, 235, 153);
 
         article {
             box-shadow: 7px 7px 2px rgb(122, 122, 83);
@@ -62,14 +62,17 @@ body {
 }
 
 div {
-    background-color: lightskyblue;
+    background: linear-gradient(45deg, white, rgb(178, 225, 255), white);
     border-radius: 45px;
     width: fit-content;
     padding: 2px;
     margin-bottom: 15px;
     position: relative;
-    top: -70px;
-    right: -70%;
+    top: -85px;
+    right: -60%;
+
+
+
 
     ul {
         margin-left: -20px;
@@ -85,14 +88,23 @@ div {
                 color: black;
                 text-decoration: none;
             }
+
+            a:hover {
+                font-size: 1.2em;
+                color: rgb(90, 0, 45);
+            }
+
+            a:active {
+                color: white;
+            }
         }
     }
 }
 
 .dinosaurio-imagen {
     display: block;
-    max-width: min(100%, 640px);
-    max-height: 420px;
+    max-width: min(100%, 400px);
+    max-height: 300px;
     margin: 12px auto;
     object-fit: contain;
     border: 2px solid #53675b;
@@ -107,13 +119,19 @@ div {
 }
 
 .busca {
-    margin: 20px 10px;
     padding: 15px;
-    background-color: #d3ded7;
+    background-color: rgb(134, 127, 184);
     border-radius: 6px;
+    height: 105px;
+    position: relative;
+    left: 500px;
+    top: 0px;
+}
+
+.navegar {
     position: sticky;
-    top: 5px;
-    height: 110px;
+    top: -10px;
+    width: 1150px;
 }
 
 .busca label {
@@ -145,28 +163,35 @@ div {
 h1 {
     font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: slateblue;
+    background-color: rgb(183, 177, 226);
     font-weight: bolder;
     padding: 5px;
 }
 
 h2 {
+    margin-left: 5px;
     font-size: 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .herbi h2 {
     color: rgb(59, 99, 0);
+    text-shadow: 2px 2px 2px rgb(20, 34, 0);
 }
 
 .carni h2 {
     color: rgb(131, 0, 0);
+    text-shadow: 2px 2px 2px rgb(46, 0, 0);
 }
 
 .omni h2 {
     color: rgb(131, 107, 0);
+    text-shadow: 2px 2px 2px rgb(53, 43, 0);
 }
 
 h3 {
+    margin-left: 15px;
+    text-shadow: -2px 0px 2px white;
+    font-size: 28px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
